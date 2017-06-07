@@ -1,5 +1,5 @@
 # A simple makefile for creating the 2MPZ distribution package
-VERSION    := 2015.03.00
+VERSION    := `git describe --tags`
 PRODUCT    := High Viscosity 2-MPZ Solvent Model
 PROD_SNAME := 2MPZ
 LICENSE    := CCSI_TE_LICENSE_$(PROD_SNAME).txt
